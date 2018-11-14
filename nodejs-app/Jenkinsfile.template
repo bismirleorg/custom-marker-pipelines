@@ -20,8 +20,6 @@ pipeline {
           yaml testPodYaml
         }
       }
-        }
-      }
       steps {
         checkout scm
         container('nodejs') {
