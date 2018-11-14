@@ -13,6 +13,7 @@ pipeline {
       echo "Why didn't you push my button?"
     }
   }
+  stages{
     stage('Tests') {
       parallel {
         stage('Web Tests') {
